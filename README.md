@@ -2,7 +2,7 @@
 
 ## Overview 
 
-The Restaurant Management WebApp is a web-based application designed to streamline and enhance the management processes of a restaurant. This project aims to provide a user-friendly interface for restaurant owners and staff to manage various aspects of their business, including menu items, orders, reservations, and customer information.
+The Restaurant Management WebApp is a web-based application designed to streamline and enhance the management processes of a restaurant.
 
 ## Features
 
