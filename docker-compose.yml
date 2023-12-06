@@ -1,0 +1,11 @@
+services:
+  backend-api:
+    build: ./backEnd
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./frontEnd
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend-api
