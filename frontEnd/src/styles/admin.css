@@ -1,0 +1,17 @@
+.SideMenuHorizontal .ant-menu-item {
+    margin-right: 100px; /* Adjust the spacing as needed */
+    /* border: rgb(224, 137, 137) 2px solid; */
+    /* background-color: white;  */
+
+}
+
+.SideMenuHorizontal{
+    /* background-color: transparent; */
+
+}
+
+.CenteredMenu{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}

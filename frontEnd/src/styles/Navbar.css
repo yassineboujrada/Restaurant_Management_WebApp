@@ -1,0 +1,75 @@
+.navBar{
+    width: 100%;
+    /* height: 100px; */
+    line-height: 70px;
+}
+.logo{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.signIn{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: none;
+    font-size: 1.05rem;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.signIn:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+.cartIcon{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.signInContainer{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+.header__shrink {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 99999;
+    box-shadow: 5px 5px 15px -5px #fde4e4;
+  }
+
+.nav__wrapper {
+flex-wrap: wrap;
+}
+.navigation {
+    /* flex: 1; */
+    text-align: center;
+    /* justify-content: center; */
+}
+.nav {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav__right {
+    gap: 10px;
+  }
+
+    @media (max-width: 768px) {
+    .nav__wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        margin-top: 10px;
+    }
+
+    .nav__right {
+        margin-top: 10px;
+    }
+    }

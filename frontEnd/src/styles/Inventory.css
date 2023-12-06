@@ -1,0 +1,7 @@
+.Inventory{
+    background-color: var(--color-main);
+    text-align: center;
+}
+.InvTitle{
+    color: aqua;
+}

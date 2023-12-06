@@ -1,0 +1,77 @@
+.mainSignContainer{
+    /* height: 95vh; */
+    /* width: 100vw; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignInContainer{
+    background-color: rgba(199, 199, 199, 0.405);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+}
+
+.formSignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font );
+}
+.formSignIn > input{
+    width: 400px;
+    height: 38px;
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 10px;
+    font-family: var(--main-font);
+}
+.formSignIn > input:focus{
+    outline: none;
+}
+.SignInContainer h2{
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: var(--main-color);
+    font-family: var(--second-font);
+}
+.SignInContainer h3{
+    font-size: 1rem;
+    color: black;
+    font-family: var(--main-font);
+}
+.submitSignIn{
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    width: 400px;
+    height: 40px;
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+@media (max-width:768px) {
+    .formSignIn > input{
+        width: 300px;
+    }
+    .submitSignIn{
+        width: 300px; 
+    }
+    .SignInContainer{
+        padding: 1rem;
+    }
+}
